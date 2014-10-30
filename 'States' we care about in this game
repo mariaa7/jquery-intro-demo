@@ -1,0 +1,14 @@
+'States' we care about in this game
+
+- total amount of unfound matches (status display to user)
+- time since start of the game (status display to user)
+- number of wrong matches (status display to user)
+
+For tiles
+- has this tile been matched
+	if yes - show, don't act on new clicks
+	if no - flip back over
+- has this tile been clicked
+- how many tiles have been clicked (true)
+	if not true, switch to true on the first click and store information
+	else if true compare to other card
